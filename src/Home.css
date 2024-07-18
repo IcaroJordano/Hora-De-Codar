@@ -11,7 +11,6 @@
     width: 20vmax;
     height: 20vmax;
     color: #ffc222;
-
     filter: drop-shadow(7px 7px 2px rgb(0,0,0,0.7));
 }
 .Home h1{
@@ -27,4 +26,20 @@
     display: flex;
     background-color: rgb(35, 36, 32);
     color:#ffc222;
+}
+.Home p{
+    color: rgb(146, 146, 146);
+}
+.Home button{
+    border: none;
+    width: 10%;
+    height: 6vmin;
+    background-color: rgb(35, 36, 32);
+    color: white;
+    font-size:medium;
+    cursor: pointer;
+}
+.Link{
+    text-decoration: none;
+    color: white;
 }

@@ -1,5 +1,7 @@
 import "./Home.css"
-import { FaPiggyBank } from "react-icons/gi";
+// import { FaPiggyBank } from "react-icons/gi";
+import { PiPiggyBankFill } from "react-icons/pi";
+import {Link} from "react-router-dom"
 
 
 function Home(){
@@ -7,8 +9,9 @@ function Home(){
         <div  className="Home">
             <h1>Bem-vindo ao <span>Costs</span></h1>
             <p >Comece a gerenciar os seus projetos</p>
-            <button>Criar Projetos</button>
-            <FaPiggyBank></FaPiggyBank>
+            <button>
+            <Link className="Link" to="/Section1">Criar Projetos</Link></button>
+            <PiPiggyBankFill></PiPiggyBankFill>
         </div>
     )
 }
