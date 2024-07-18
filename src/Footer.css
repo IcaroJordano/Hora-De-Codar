@@ -1,0 +1,43 @@
+.Footer{
+    display: flex;
+    height: 20vmin;
+    background-color: rgb(27, 27, 37);
+    flex-direction: column;
+}
+.Footer p{
+    margin: auto;
+    /* margin-top: 0%; */
+    display: flex;
+    color: #ffc222;
+}
+.Footer ul{
+    /* margin-bottom: 0%; */
+    padding: 0%;
+    margin:auto;
+    margin-top: 2%;
+    justify-content:space-between;
+    display: flex;
+    width: 15%;
+    height: 2vmax;
+}
+.Footer li{
+    padding: 0%;
+
+    margin: 0%;
+ 
+    width: 100%;
+    display: flex;
+    text-decoration: none  ;
+    width: 3vmax;
+}
+.Footer svg{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    width: 2vmax;
+    height: 2vmax;
+    color: white;
+}
+.Footer li :hover{
+    color: #ffc222;
+}
